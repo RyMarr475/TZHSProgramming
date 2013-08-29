@@ -85,6 +85,11 @@ h3.chapter{
 	text-align:left;
 }
 
-.tutpic{
-	text-align: center;}
+.code{
+	font-family:lucida console;
+	font-size: 12px;
+	padding:5px;
+	background-color: rgba(230,230,230,.8);
+	border-radius: 5px;
+}
 
