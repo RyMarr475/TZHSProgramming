@@ -1,0 +1,90 @@
+body{
+	background-color: #AEF986;
+	font-family = inconsolata, consolas, courier;}
+	
+#page{
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 25px auto;
+	padding: 20px;
+	border: 4px solid #000;}
+	
+	
+#logo{
+	font-family: inconsolata, consolas, courier;
+	text-align: center;}
+
+ul#nav{
+	width: 570px;
+	margin: 0px auto 0px auto;
+	padding: 5px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	text-align: center;}
+	
+li.inline{
+	font-size: 18px;
+	display: inline;
+	margin: 0px 20px 0px 20px;}
+	
+a.button:link {
+	color: #000;
+	text-decoration: none;
+	padding: 5px 5px 6px 5px;
+	background-color: #3F9E0D;
+	border-radius: 10px;}
+
+a.button:hover{
+	background-color: #6EF327;}
+	
+a.button:visited{
+	color: #000;
+	text-decoration: none;}
+	
+p{
+	font-size: 18px;
+	width:700px;
+	margin: 10px auto 10px auto;
+	text-align: center;}
+	
+p.category{
+	text-align:left;}
+
+#info{
+	margin: 50px auto 10px auto;
+	font-size: 10px;
+	color: #3F9E0D;}
+h3.section{
+	padding-left: 30px;
+	font-family: inconsolata, consolas, courier;
+	font-size: 200%;
+	border-bottom: 2px solid #000000;
+	color: #000000;}
+	
+h3.acc{
+	padding-left: 30px;
+	font-family: inconsolata, consolas, courier;
+	font-size: 200%;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	color: #000000;}
+
+h3.chapter{
+	text-decoration: underline;}
+
+#welcome{
+	margin:10px auto 10px auto;
+	border: 2px solid #000;
+	width: 80%;
+	text-align: center;}
+
+#disclaimer{
+	font-size:12px;}
+
+#gittut p{
+	text-align:left;
+}
+
+.tutpic{
+	text-align: center;}
+
