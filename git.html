@@ -39,7 +39,25 @@
 				<p>
 					If you ever have a problem with git, just Google it. You will probably find the answer within the first five links. If you are still having trouble, you can ask any of the club members or any of the hundreds of people in the #git channel on the freenode irc server who know more about git than you could ever imagine.
 				</p>
-			
+				<h3 class="section">quick guide();</h3>
+				<p>
+					<span class="code">git status</span> tells you which files are staged and unstaged
+				</p>
+				<p>
+					<span class="code">git add <em>filename</em></span> add the chosen file (replace <em>filename</em> with * to add everything)
+				</p>
+				<p>
+					<span class="code">git commit -m "commit message"</span> commit all current staged changes and leave a message (make sure you add the message, it is important)
+				</p>
+				<p>
+					<span class="code">git log</span> returns a log of commits
+				</p>
+				<p>
+					<span class="code">git remote add <em>shortname url</em></span> add a remote of <em>url</em> under the name <em>shortname</em>... you shouldn't need to use this that much because the remote called "origin" is automatically added when you clone a repo
+				</p>
+				<p>
+					<span class="code">git pull <em>remote localbranch</em></span> fetches the changes of the remote repo and merges the changes with your local branch (normally it will be origin and master respectively)
+				</p>
 			<div>
 				<p id="info">
 					This website is currently being hosted on a 7 year old PC sitting in Ryan Marren's living room, not by a webhosting service. 
